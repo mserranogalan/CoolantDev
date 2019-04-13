@@ -1,0 +1,201 @@
+Tareas en VSTS:
+
+Implement  AuditLogDB on entity framework context:
+		-DbAudit									YA
+		-EntityFrameworkAuditing					YA
+
+		-Learnin curve of Vue.JS/Axios				llevo 9 horas + 4 y son 15
+		-Add EF Nuget package						YA
+		-Configure connection string to database and enable Migrations	YA
+		
+		-As Developer, I need to implement Cat.Core for use CWS Login (caterpillar badge login)
+			-Use CWS account on visual studio to access to this nuget repository		YA
+			-configure both environments testing and production on web config			YA
+		-As Developer, I need to register all handled and unhandled errors				
+			-Implement an API or a custom made API to catch errors "Log4Net"			YA
+			-Save errors on database													
+		- Create a Model for the Coolant application			YA
+		-Problem Solving with Cat.Core for use CWS Login		YA
+		-implement a dll as NLog or Log4Net, or a custom made could be implemented	YA
+		-Review some examples of Vue and DexExtreme		YA
+		-Review some examples of
+		-Trainig and Create the Branch Master and Dev in Git
+		-Add No authorization tag in web.config with the verbs		NO mencionar
+		-Use Global.asax application_error							No Mencionar
+		
+		
+	faltan 0 en 26
+	faltan 2 en 27
+	faltan 0 el 28
+	faltan 1 el 29
+	
+Para esta semana tambien:
+	-Review development's standard							YA
+	-Setup DexExtreme tools									YA
+	-review of Dev Extreme
+	-Fix the  provided model about a redundant relationship	YA
+	-Created the Class's and Entities's Repository			YA
+	-In Bussines Layer was created the model for the Context of LeanWorkCenterContext	YA 
+	-Created the Extension for LeanWorkCenterContext		YA
+	
+	-Add the Necesary Elements in the Resource directory and Add like a Reference 
+	-Varios mas Archivos de todas las carpetas fueron cipiados y cargados
+	-Setear componentes en el BundleConfig.cs 		--> Como mejora
+	
+	-Para las tareas y Contro: archivos JS involucrados en en Vue de Lean Control Center:
+		-LwcComponen
+		-LeanWorkCenterService
+		-LeanWorkCenterDetailsComponent
+______________________________________________________________________________________________________________________________________________________________________________
+    
+	
+	<link rel="shortcut icon" href="/Resources/Images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/Resources/Images/favicon.ico" type="image/x-icon">
+    <link href="~/Resources/Libraries/fontawesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Resources/Libraries/materialize/css/materialize.min.css" rel="stylesheet" />
+    <link href="~/Resources/Libraries/materialize/css/materialize.override.css" rel="stylesheet" />
+    <link href="~/Resources/Styles/Layout.css" rel="stylesheet" />
+    <script src="~/Resources/Libraries/jquery/jquery-3.1.0.min.js"></script>
+    <script src="~/Resources/Libraries/materialize/js/materialize.min.js"></script>
+    <script src="~/Resources/Libraries/scripts/Menu.js"></script>
+	<script src="~/Resources/Libraries/jscookie/js.cookie.min.js"></script>
+    <link href="~/Content/navbar_temp.css" rel="stylesheet" />
+    <link href="~/Resources/Libraries/toastr/toastr.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jszip.min.js"></script>
+    <script src="~/Resources/Libraries/toastr/toastr.min.js"></script>	
+	
+    @*Seccion Nueva para lo de Vue*@
+    <link href="~/Resources/Libraries/materialize/font/roboto/roboto.css" rel="stylesheet" />
+    <link href="~/Resources/Libraries/materialize/css/materialize.css" rel="stylesheet" />
+    <link href="~/Resources/Libraries/material-icons/material-icons.css" rel="stylesheet" />
+    <link href="~/Resources/Libraries/fontawesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link href="~/Resources/Libraries/toastr/toastr.css" rel="stylesheet" />
+    <link href="~/Resources/Libraries/jquery-ui/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/Resources/Libraries/scripts/vue-multiselect/vue-multiselect.min.css" rel="stylesheet" />
+    <link href="~/Resources/Styles/vuemiltiselect.fix.css" rel="stylesheet" />
+    <link href="~/Resources/Libraries/scripts/v-calendar/v-calendar.min.css" rel="stylesheet" />
+	
+    <!-- This is temporal until the required bundles are gathered and ordered -->
+    <script src="~/Scripts/polyfills/babelPolyfill.min.js"></script>
+    <script src="~/Resources/Libraries/scripts/vue-multiselect/vue-multiselect.min.js"></script>
+    <script src="~/Resources/Libraries/scripts/v-calendar/v-calendar.min.js"></script>
+    <link href="~/Resources/Styles/CustomStyles.css" rel="stylesheet" />
+
+    <!--DEV Express START-->
+    <link href="~/Content/dx.common.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/dx.light.css" rel="stylesheet" />
+    <script src="~/Scripts/jszip.min.js"></script>
+    <!--DEV Express END-->	
+---------------------------------------------------------------------------------------------------------------------------
+
+~/bundles/modernizr
+	~/Scripts/modernizr-*
+	
+~/Content/css
+	~/Content/bootstrap.css
+	~/Content/site.css
+	
+~/bundles/jquery
+	~/Scripts/jquery-3.3.1.js
+	
+~/bundles/jquery-ui
+	~/Resources/Libraries/jquery-ui/jquery-ui.js
+	
+~/bundles/vue
+	~/Scripts/polyfills/babel-polyfill.min.js
+	~/Resources/Libraries/scripts/vue-multiselect/vue-multiselect.min.js
+	~/Resources/Libraries/scripts/vuejs/vue.js
+	~/Resources/Libraries/scripts/vuejs/axios.js
+	~/Resources/Libraries/scripts/v-calendar/v-calendar.min.js
+	~/Resources/Libraries/scripts/vue-paginate/vue-paginate.js
+	
+~/bundles/LinqJS
+	~/Resources/Libraries/LinqJS/linq.js.min.js
+	
+~/bundles/materialize
+	~/Resources/Libraries/materialize/js/materialize.min.js
+	
+~/bundles/shared
+	~/Resources/Libraries/scripts/menu.js
+	~/Resources/Libraries/momentjs/moment.min.js
+	~/Resources/Libraries/momentjs/moment-timezone.js
+	~/app/service/Functions.js
+	~/app/Utilities.js
+	
+~/bundles/master
+	~/app/app.js
+	~/app/service/MasterService.js
+	~/app/service/ScheduleService.js
+	~/app/components/MasterComponent.js
+	
+~/bundles/toastr
+	~/Resources/Libraries/toastr/toastr.js
+	
+~/Content/DevExtremeBundle
+	~/Content/dx.common.css
+    ~/Content/dx.material.blue.light.css
+    ~/Content/st.custom.theme.css
+    ~/fonts/fontawesome/css/all.min.css
+    ~/fonts/material-icons/material-icons.css
+	
+~/Scripts/DevExtremeBundle
+	~/Scripts/cldr.js
+    ~/Scripts/cldr/event.js
+    ~/Scripts/cldr/supplemental.js
+    ~/Scripts/cldr/unresolved.js
+	~/Scripts/globalize.js
+    ~/Scripts/globalize/message.js
+    ~/Scripts/globalize/number.js
+    ~/Scripts/globalize/currency.js
+    ~/Scripts/globalize/date.js
+	~/Content/lib/jszip/jszip.min.js
+    ~/Scripts/dx.web.js
+    ~/Scripts/aspnet/dx.aspnet.data.js
+    ~/Scripts/aspnet/dx.aspnet.mvc.js
+
+______________________________________________________________________________________________________________________________________________________________________________
+
+<div id="lwcComponent">
+    <dx-data-grid id="gridContainer"
+                  :data-source="gridDataSourceLWC"
+                  :show-borders="true"
+                  :filter-row="filterRow"
+                  :filter-panel="filterPanel"
+                  :editing="edit"
+                  :on-row-updating="actualizar"
+                  :on-editor-prepared="preparing"
+                  :on-row-inserting="adding">
+    </dx-data-grid>
+</div>
+
+
+______________________________________________________________________________________________________________________________________________________________________________
+Ligas: 
+https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/Filtering/Vue/Light/
+https://js.devexpress.com/Demos/WidgetsGallery/Demo/Switch/Overview/Vue/Light/
+https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/PopupEditing/Vue/Light/
+https://codesandbox.io/s/m3j7zkv2qj
+https://js.devexpress.com/Documentation/ApiReference/UI_Widgets/dxDataGrid/
+https://js.devexpress.com/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowInserting
+https://js.devexpress.com/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onEditorPreparing
+https://js.devexpress.com/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowPrepared
+En google: how to remove editing for a column devextreme
+https://www.devexpress.com/Support/Center/Question/Details/T358437/dxdatagrid-how-to-hide-some-columns-on-an-edit-form
+
+https://www.w3schools.com/bootstrap/bootstrap_modal.asp
+https://www.w3schools.com/bootstrap/bootstrap_modal.asp
+
+https://js.devexpress.com/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources
+https://js.devexpress.com/Documentation/ApiReference/Data_Layer/CustomStore/
+En Google: dxdatagrid web api custom
+
+https://js.devexpress.com/Demos/Widgetsgallery/Demo/DataGrid/WebAPIService/Mvc/Light/
+https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/WebAPIService/jQuery/Light/
+En google: git devextreme
+https://github.com/DevExpress/DevExtreme
+https://github.com/DevExpress/DevExtreme-examples
+
+
+______________________________________________________________________________________________________________________________________________________________________________
+
+
